@@ -1,0 +1,19 @@
+{
+  "name": "les-petits-plats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/main.scss css/style.css",
+    "lint": "eslint --max-warnings=0 ."
+  },
+  "gitHooks": {
+    "pre-push": "npm run lint"
+  },
+  "author": "Nima",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "yorkie": "^2.0.0"
+  }
+}
